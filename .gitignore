@@ -1,0 +1,103 @@
+# Archivos de compilación y ejecución
+bin/
+obj/
+*.pdb
+*.user
+*.suo
+*.cache
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.ncb
+*.opensdf
+*.sdf
+*.ipch
+
+# Archivos de Visual Studio
+.vs/
+*.swp
+*~
+
+# Archivos de publicación
+publish/
+_PublishProfiles/
+*.pubxml
+*.publishproj
+
+# Archivos de usuario
+*.user
+*.userosscache
+*.sln.docstates
+*.dbmdl
+
+# Archivos de configuración personalizada
+Web.config
+App.config
+PERFILES SA.csproj
+*.config
+
+# Archivos de datos de aplicación
+*.mdf
+*.ldf
+App_Data/
+App_Code/
+
+# Archivos temporales
+*.tmp
+*.temp
+[Tt]emp/
+
+# Archivos de paquetes NuGet
+packages/
+*.nupkg
+*.nuspec
+
+# Archivos de caché y logs
+*.log
+*.cache
+*.bak
+
+# Archivos de resguardo
+*.backup
+*.old
+
+# Archivos específicos de Web Forms
+PrecompiledWeb/
+App_GlobalResources/
+App_LocalResources/
+App_WebReferences/
+App_Browsers/
+
+# Archivos de proyecto
+*.csproj.user
+*.vbproj.user
+*.csproj.vspscc
+*.vbproj.vspscc
+
+# Archivos de sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archivos de TypeScript
+*.js.map
+*.tsbuildinfo
+
+# Configuraciones de desarrollo local
+local.settings.json
+appsettings.Development.json
+connectionstrings.config
+
+# Archivos de prueba (si no quieres subirlos)
+*.testsettings
+*.vsmdi
+*.testlog
+TestResults/
+
+# Excluir archivos de reportes
+*.trx
+*.coverage
+coverage.*
